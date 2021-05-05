@@ -4,8 +4,13 @@ import { NoteformComponent } from './noteform/noteform.component';
 import { NoteslistComponent } from './noteslist/noteslist.component';
 
 
-const routes: Routes = [{
+const routes: Routes = [
+ {
   path: 'home',
+  component: NoteslistComponent
+},
+{
+  path: '',
   component: NoteslistComponent
 },
 {
