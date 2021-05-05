@@ -1,0 +1,38 @@
+<div class="content" role="main">
+<div class="spacer" >
+    <input class="pull-left" type="search" id="search" name="search">
+
+    <button class="pull-right" (click)="onAddNoteClick()" >Add note</button>
+  
+  </div>
+
+
+  <div class="card-container">
+    <div class="card">
+        <!-- <header>header</header>  -->
+      <span>Learn Angular Learn Angular Learn Angular  Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular</span>
+    </div>
+  </div>
+
+<div *ngFor="let note of notesList" class="card-container">
+    <div class="card">
+        <span>{{note.content}}</span>
+    </div>
+</div>
+
+  <!-- <div class="va-card-container" >
+
+    <div class="va-card-body">
+        <h2>title</h2>
+        <span> safdjkalv Learn Angular Learn Angular Learn Angular  Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular
+            Learn Angular Learn Angular Learn Angular  Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular Learn Angular </span>
+    </div>
+
+    <div class="va-card-body">
+        <h2>title</h2>
+        <span> safdjkalv Learn Angular Learn Angular </span>
+    </div>
+
+  </div> -->
+
+</div>
